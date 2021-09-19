@@ -1,0 +1,26 @@
+.card {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 15px;
+  background-color: rgb(115, 189, 238);
+  margin: 0.5rem;
+  border: rgb(3, 130, 189) solid 2px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.card-wrapper {
+  display: inline;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  background-color: rgb(187, 187, 187);
+  border: rgb(165, 163, 163) solid 2px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
